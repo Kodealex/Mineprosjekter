@@ -7,6 +7,25 @@ button {
   display: inline-block;
   font-size: 16px;
 }
-.section {
-  background-color: #000000;
+section.soverom {
+  
+}
+img
+{
+  height: 80%;
+  width: 40%;
+  float: right;
+  margin-right:5%;
+}
+section.section1
+{
+  
+}
+header
+{
+ 
+}
+body
+{
+  background-color: #91a9df;
 }
