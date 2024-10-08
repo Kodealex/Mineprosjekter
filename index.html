@@ -4,10 +4,6 @@
     <title>Hjem - Min nettside</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
@@ -15,52 +11,54 @@
     <header>
       <h1>Min nettside</h1>
       Her kan du finne:
-    </header>
-    <main>
+
+      <!-- Meny seksjon -->
       <section class="section1">
         <nav>
-          <ul>
+          <ul id="Meny">
+            <li><a href="index.html">Hjem</a></li>
             <li>
-              <a href="https://github.com/Kodealex?tab=repositories"
-                >Mine prosjekter</a
-              >
+              <a href="https://github.com/Kodealex?tab=repositories">Mine prosjekter</a>
             </li>
             <li>Bilder</li>
             <li>Informasjon om meg</li>
           </ul>
         </nav>
       </section>
-      <section class="soverom">
-        <img src="soverom.jpg" alt="et soverom">
-      </section>
+    </header>
+    <main>
+      <!-- Mine prosjekter seksjon -->
       <section>
         <h2>Mine prosjekter</h2>
         <p>Her har jeg samlet alle mine prosjekter ..</p>
         <nav>
-          <ul>
+          <ul id="prosjektknapper">
             <!-- Liste over dagene jeg har jobbet på kodeloft og link til github koden som tilhører dagsarbeidet -->
             <li>
               <a href="https://github.com/Kodealex/stackblitz-kodeloft-dag1"
-                ><button type="button">Kodeloft dag 1</button></a
+                ><button id="knapp1" type="button">Kodeloft dag 1</button></a
               >
             </li>
             <li>
               <a href="https://github.com/Kodealex/kodeloftet_undervisningdag2"
-                ><button class="button" type="button">Kodeloft dag 2</button></a
+                ><button id="knapp2" class="button" type="button">Kodeloft dag 2</button></a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Kodealex/kodeloftet_undervisningsdag3"
+                ><button id="knapp3" class="button" type="button">Kodeloft dag 3</button></a
               >
             </li>
             <li>
               <a href=""
-                ><button class="button" type="button">Kodeloft dag 3</button></a
-              >
-            </li>
-            <li>
-              <a href=""
-                ><button class="button" type="button">Kodeloft dag 4</button></a
+                ><button id="knapp4" class="button" type="button">Kodeloft dag 4</button></a
               >
             </li>
           </ul>
         </nav>
+      </section>
+      <section id="soverombox">
+        <img src="soverom.jpg" id="soverom" alt="et soverom">
       </section>
       <section>
         <h2>Om meg</h2>
@@ -72,6 +70,6 @@
         </p>
       </section>
     </main>
-    <footer></footer>
+    <footer><p>Laget av Alexander</p></footer>
   </body>
 </html>

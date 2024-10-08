@@ -1,21 +1,59 @@
-button {
+#prosjektknapper
+{
+list-style-type:none; 
+}
+
+#knapp1
+{
   background-color: #194ec2;
   color: rgb(10, 10, 10);
+  /*  
   padding: 4px 22px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
+  */
 }
-section.soverom {
+#knapp2
+{
+  background-color: #19c22d;
+  color: rgb(10, 10, 10);
+}
+#knapp3
+{
+  background-color:brown;
+  color: rgb(10, 10, 10);
+}
+#knapp4
+{
+  background-color:blueviolet;
+  color: rgb(10, 10, 10);
+}
+/*  
+button {
+}
+*/
+#soverombox
+{
+  display: flex;
+  justify-content:right;
+  
   
 }
-img
+#soverom
 {
-  height: 80%;
+  height: 80%; 
   width: 40%;
-  float: right;
-  margin-right:5%;
+  
+}
+
+#Meny
+{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  list-style-type:none;
+  margin:10px;
 }
 section.section1
 {
@@ -28,4 +66,14 @@ header
 body
 {
   background-color: #91a9df;
+}
+footer
+{
+  display:flex;
+  justify-content: center;
+  background-color: #4644ca;
+}
+main
+{
+ background-color: rgb(192, 187, 225);
 }
