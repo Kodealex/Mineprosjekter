@@ -71,9 +71,13 @@ footer
 {
   display:flex;
   justify-content: center;
-  background-color: #4644ca;
+  background-color: #7573e9;
 }
 main
 {
  background-color: rgb(192, 187, 225);
+}
+section.Om-meg
+{
+  margin:10px;
 }
